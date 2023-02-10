@@ -1,13 +1,98 @@
-body {
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+ 
 }
+.coin-container{
+  display: flex;
+  justify-content: center;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  text-align: center;
+ 
+}
+.coin-row{
+  display: flex;
+  justify-items: start;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  width: fit-content;
+ 
+  text-align: center;
+  border-bottom: 1px solid orangered;
+}
+img{
+  position: relative;
+  height: 20px;
+  top:1px;
+  right: 13px;
+}
+.coin{
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  margin: 20px;
+  align-items: center;
+  text-align: center;
+}
+.coin-data{
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+.coin-price{
+  color:green;
+  padding: 20px;
+  margin: 20px;
+}
+.coin-marketcap{
+  padding: 20px;
+  margin: 20px;
+  position: relative;
+  top:3px;
+}
+.price-change-red{
+  position: relative;
+  top:38px;
+color: red;
+}
+.price-change-green{
+  position: relative;
+  top:38px;
+color: green;
+}
+.coin-symbol{
+  text-align: center;
+  width:40px;
+  padding:10px;
+  position: relative;
+  left:8px;
+  top:2px
+ 
+}
+h1{
+  width:280px;
+  text-align: center;
+}
+.coin-app{
+  display: flex;
+justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.coin-text{
+
+  width: 20vw;
+  height: 10vh;
+  align-items: center;
+  color: black;
+
+}
+.coin-input{
+  position: relative;
+  left:40px;
+  bottom:17px;
 }
